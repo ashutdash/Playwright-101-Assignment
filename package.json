@@ -1,0 +1,17 @@
+{
+  "name": "playwright-certification",
+  "version": "1.0.0",
+  "description": "TestMu AI Playwright 101 certification assignment",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:local": "npx playwright test --project=local-chromium",
+    "test:cloud": "npx playwright test --project=win10-chrome --project=macos-firefox",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.0",
+    "@types/node": "^22.15.0",
+    "dotenv": "^16.4.7",
+    "typescript": "^6.0.3"
+  }
+}
